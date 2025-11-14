@@ -1,1 +1,137 @@
-Helloworld
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetroFakta.id - Berita Lengkap</title>
+    <style>
+        body {
+            background: #e5e5e5;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: #4a4a4a;
+            color: #fff;
+            padding: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            height: 48px;
+            margin-right: 12px;
+        }
+        nav {
+            background: #676767;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 20px 32px;
+            font-size: 1.1em;
+            transition: background 0.2s;
+        }
+        nav a:hover, nav a.active {
+            background: #232323;
+        }
+        .news-container {
+            background: #fff;
+            max-width: 800px;
+            margin: 40px auto;
+            border-radius: 12px;
+            box-shadow: 0 0 18px rgba(0,0,0,0.06);
+            padding: 32px;
+        }
+        .news-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 14px;
+        }
+        .news-meta {
+            color: #888;
+            font-size: 0.98em;
+            margin-bottom: 22px;
+        }
+        .news-img {
+            display: block;
+            margin: 0 auto 24px auto;
+            border-radius: 8px;
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.09);
+        }
+        .news-scroll {
+            max-height: 350px;
+            overflow-y: auto;
+            padding-right: 12px;
+        }
+        .news-content {
+            font-size: 1.11em;
+            color: #333;
+            line-height: 1.75;
+        }
+        .footer {
+            text-align: right;
+            color: #666;
+            padding: 22px 0;
+            font-size: 0.97em;
+        }
+        @media (max-width: 900px) {
+            .news-container {
+                max-width: 96vw;
+                padding: 12px;
+            }
+            nav a {
+                padding: 11px 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="http://cdn.discordapp.com/attachments/1437301934112636949/1438538106419810445/1763044596044.png?ex=69173e83&is=6915ed03&hm=0efe75267f80e9a471aca96c3ca0a2d57c49e3f42d80c42b8c0a1e1449288ad1&" alt="MetroFakta.id Logo">
+            <span style="font-size: 2em; font-weight: bold;">MetroFakta.id</span>
+        </div>
+        <span>©2025 MetroFakta.id</span>
+    </div>
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#" class="active">Terkini</a>
+        <a href="#">Nasional</a>
+        <a href="#">Internasional</a>
+        <a href="#">Ekonomi</a>
+        <a href="#">Opini</a>
+    </nav>
+
+    <div class="news-container">
+        <div class="news-title">
+            Oknum Brimob Diduga Terlibat Penyelundupan Senjata ke Organisasi Kriminal “laba laba sunda”
+        </div>
+        <div class="news-meta">
+            Selasa, 11 November 2025 | 09:45
+        </div>
+        <img class="news-img" src="http://cdn.discordapp.com/attachments/1020728900101353562/1437843455933153471/RobloxScreenShot20251111_220211850.png?ex=6916b1d1&is=69156051&hm=90a2c59d32869bf3a2793d8c77e419655b4f7069ca297e096802f4a80f827ac6&" alt="Ilustrasi Oknum Brimob">
+        <div class="news-scroll">
+            <div class="news-content">
+                Downtown, MetroFakta.id - Dugaan praktik penyelundupan senjata oleh oknum anggota Brimob kini tengah menjadi sorotan publik. Berdasarkan laporan dari sumber internal kepolisian, sejumlah senjata laras panjang jenis SS1-V2 dan amunisi dilaporkan hilang dari gudang penyimpanan senjata di wilayah Downtown, Los Andreas.
+                <br><br>
+                Informasi yang dihimpun menyebutkan bahwa sebagian senjata tersebut ditemukan digunakan dalam aksi perampokan bersenjata yang dilakukan kelompok kriminal Laba-Laba Sunda pada awal November lalu.
+                <br><br>
+                Penyelidikan sementara mengarah pada keterlibatan tiga anggota Brimob aktif, yang diduga memanfaatkan akses dinas mereka untuk memindahkan senjata secara ilegal.
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        MetroFakta.id | Akurat - Cepat - Terpercaya
+    </div>
+</body>
+</html>
